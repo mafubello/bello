@@ -16,7 +16,7 @@ body{
 
 a{
     text-decoration:none;
-    color:#fff;
+    color:#000;
     font-family:'Scope One', serif;
     font-size: 1.5em;
     font-display: bold;
@@ -40,6 +40,7 @@ font-family: 'Bungee Shade', cursive; */
 
 #navbar{
     background-color:steelblue;
+    position:fixed;
     color:#000;
     width: 100%;
     height: 50px;
