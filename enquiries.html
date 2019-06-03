@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="image/favicon.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="css/edit.css">
     <title>Enquires</title>
 </head>
 <body>
 <div>
-    <a class="fix-me button" href="index.html"> TWI</a>
-    </div>
+    <a class="fix-me button" href="index.html"> Home</a>
+</div>
 
         <nav id="navbar">
              
                 <ul>
                 <li><a href="index.html">Home</a></li>
-                 <li><a href="ourapproach.html">Our Organisation</a></li>
+                 <li><a href="ourapproach.html">About Us</a></li>
+                 <li><a href="services.html">Services</a></li>
                  <li><a href="enquiries.html">Enquiries</a></li>
                 </ul>
             </nav>
@@ -31,7 +33,7 @@
                 <form class="my-form">
                     <div class="form-group">
                         <label>Name:</label>
-                        <input type="text" name="name">
+                        <input type="text" name="name" id="name">
                     </div>
                     <div class="form-group">
                             <label>Email:</label>
@@ -41,7 +43,7 @@
                                 <label>Message:</label>
                                 <textarea name="message"></textarea>
                             </div>
-                            <input class= "button" type="submit" value="Submit" name="">
+                            <input class= "button" type="submit" value="Submit" name="submit" id="submit" onclick="submitForm()">
                 </form>
         </div>
 
@@ -54,5 +56,6 @@
                 <a href="https:www.gmail.com/mafubello"><i class="fas fa-envelope-square"></i></a>
             </div>
         </footer>
+        <script src="main.js"></script>
 </body>
 </html>
